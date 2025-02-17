@@ -14,8 +14,6 @@ This project implements **Visual Odometry (VO)** using a single moving camera, e
 - **Camera Trajectory Calculation** – Integrates transformations to reconstruct the path.
 - **Real-Time Visualization** – Plots the estimated trajectory live.
 
----
-
 ## Installation
 
 ### **Requirements**
@@ -44,7 +42,6 @@ python main.py
    - The estimated trajectory is plotted live and saved as images.
    - The final trajectory is saved as `final_trajectory.png`.
 
----
 
 ## Visual Odometry Pipeline
 
@@ -71,8 +68,6 @@ python main.py
 - Integrates transformations frame by frame to compute the camera’s path.
 - Visualizes the estimated trajectory in real-time.
 
----
-
 ## Example Results
 
 - **Input:** A monocular video from a moving camera.
@@ -82,7 +77,6 @@ Example visualization:
 ![Example Trajectory](./demo_videos/1.mp4)
 ![Example Trajectory](./demo_videos/2.mp4)
 
----
 
 ## Future Improvements
 
@@ -90,22 +84,15 @@ Example visualization:
 - **Optical Flow Instead of Feature Matching** – Experimenting with **Lucas-Kanade Optical Flow** could offer smoother motion estimation.
 - **Pose Graph Optimization** – Using **Bundle Adjustment** for better pose refinement.
 
----
 
 ## Contributions
 
 Feel free to contribute! Open an issue or submit a pull request. 🚀
 
----
-
 ## License
 
 This project is licensed under the **MIT License**.
 
----
-
 ## Contact
 
 For any questions, reach out via LinkedIn or email! Checkout my website for contact information.
-
----
