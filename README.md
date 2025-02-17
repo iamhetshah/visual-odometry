@@ -79,15 +79,16 @@ python main.py
 - **Output:** An estimated trajectory of the camera’s motion.
 
 Example visualization:
-![Example Trajectory](./images/example_trajectory.png)
+![Example Trajectory](./demo_videos/1.mp4)
+![Example Trajectory](./demo_videos/2.mp4)
 
 ---
 
 ## Future Improvements
 
-🔹 **Improve Depth Estimation** – Current implementation estimates only **relative depth**. Adding stereo vision or deep learning models could improve accuracy.
-🔹 **Optical Flow Instead of Feature Matching** – Experimenting with **Lucas-Kanade Optical Flow** could offer smoother motion estimation.
-🔹 **Pose Graph Optimization** – Using **Bundle Adjustment** for better pose refinement.
+- **Improve Depth Estimation** – Current implementation estimates only **relative depth**. Adding stereo vision or deep learning models could improve accuracy.
+- **Optical Flow Instead of Feature Matching** – Experimenting with **Lucas-Kanade Optical Flow** could offer smoother motion estimation.
+- **Pose Graph Optimization** – Using **Bundle Adjustment** for better pose refinement.
 
 ---
 
@@ -105,6 +106,6 @@ This project is licensed under the **MIT License**.
 
 ## Contact
 
-For any questions, reach out via LinkedIn or email!
+For any questions, reach out via LinkedIn or email! Checkout my website for contact information.
 
 ---
